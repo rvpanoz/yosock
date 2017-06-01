@@ -1,0 +1,19 @@
+{
+  "name": "yosockio",
+  "version": "1.0.0",
+  "description": "yo code presentation tool",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "keywords": [],
+  "author": "rvpanoz@gmail.com",
+  "dependencies": {
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "socket.io": "^2.0.1"
+  }
+}

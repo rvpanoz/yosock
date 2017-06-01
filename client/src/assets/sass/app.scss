@@ -1,0 +1,95 @@
+$font-stack: Helvetica, sans-serif;
+$font-size: 1.4em;
+$primary-color: #000;
+$bgcolor: #fff;
+$topMargin: 60px;
+
+body {
+  font-size: $font-size;
+  background-color: $bgcolor;
+  font: 100% $font-stack;
+  color: $primary-color;
+  overflow-x: hidden;
+}
+
+#app-content {
+  margin-top: $topMargin;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row.last {
+  width: 90%;
+  position: fixed;
+  bottom: 100px;
+}
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+#messages li {
+  padding: 5px 10px;
+}
+
+#messages li:nth-child(odd) {
+  background: #eee;
+}
+
+#messages {
+  margin-bottom: 40px;
+}
+
+.CodeMirror-code {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.comment {
+    overflow: hidden;
+    padding: 0 0 1em;
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 1em;
+    *zoom: 1;
+}
+
+.comment-img {
+    float: left;
+    margin-right: 33px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.comment-img img {
+    display: block;
+}
+
+.comment-body {
+    overflow: hidden;
+}
+
+.comment .text {
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 14px;
+}
+
+.comment .text p:last-child {
+    margin: 0;
+}
+
+.comment .attribution {
+    margin: 0.5em 0 0;
+    font-size: 14px;
+    color: #666;
+}
