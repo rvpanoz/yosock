@@ -28,7 +28,8 @@ Install node.js and npm on your machine.
 To install dependencies <code>npm install && npm run start </code> to start the node server
 
 ### Client start
-<code>cd client</code>  
+<code>cd client</code>
+<code>cd yosock</code>  
 To install dependencies <code>npm install && npm run start </code> to start the webpack server  
 
 Navigate to http://localhost:9966 to preview the app :)
