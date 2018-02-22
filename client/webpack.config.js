@@ -74,7 +74,7 @@ var config = {
 	devServer: {
 		open: false,
 		hot: true,
-    host: '10.82.2.211',
+    host: '127.0.0.1',
     port: 3009,
 		contentBase: path.join(__dirname, 'src')
 	},
