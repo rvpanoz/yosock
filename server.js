@@ -2,7 +2,6 @@
  * App Server
  **/
 const config = require('./config');
-const messages = require('./messages');
 const moment = require('moment');
 
 var app = require('express')();
